@@ -1,0 +1,41 @@
+{
+  "name": "vue-ssr-tutorial",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Will130785/vue-ssr-tutorial.git"
+  },
+  "author": "Will Constable",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Will130785/vue-ssr-tutorial/issues"
+  },
+  "homepage": "https://github.com/Will130785/vue-ssr-tutorial#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "vue": "^2.6.14",
+    "vue-router": "^3.5.2",
+    "vue-server-renderer": "^2.6.14",
+    "vuex": "^3.6.2",
+    "vuex-router-sync": "^5.0.0"
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.3.1",
+    "babel-core": "^6.26.3",
+    "babel-loader": "^8.2.2",
+    "babel-plugin-syntax-dynamic-import": "^6.18.0",
+    "babel-preset-env": "^1.7.0",
+    "vue-loader": "^16.3.0",
+    "webpack": "^5.44.0",
+    "webpack-dev-middleware": "^5.0.0",
+    "webpack-hot-middleware": "^2.25.0",
+    "webpack-merge": "^5.8.0",
+    "webpack-node-externals": "^3.0.0"
+  }
+}
